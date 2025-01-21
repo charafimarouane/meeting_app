@@ -6,9 +6,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 @layer utilities {
   .flex-center {
-    @apply flex justify-center items-center;
+    @apply flex justify-center items-center
   }
   .flex-between {
     @apply flex justify-between items-center;
@@ -70,7 +71,15 @@ body {
     --chart-5: 340 75% 55%;
   }
 }
-
+.cl-socialButtonsBlockButtonText{
+  color: white
+}
+.cl-socialButtonsBlockButtonText:hover{
+  color: white
+}
+.cl-userButtonPopoverActionButton{
+  color: white
+}
 @layer base {
   * {
     @apply border-border;
