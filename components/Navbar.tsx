@@ -12,7 +12,7 @@ const Navbar = () => {
         className='flex items-center gap-1'
       >
         <Image 
-          src="/vercel.svg"
+          src="/logo.svg"
           width={32}
           height={32}
           alt='Logo'
