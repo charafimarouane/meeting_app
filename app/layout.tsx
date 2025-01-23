@@ -32,7 +32,7 @@ export default function RootLayout({
     <html lang="en">
       <ClerkProvider appearance={{
         layout:{
-          logoImageUrl: "/icons/home.svg",
+          logoImageUrl: "/icons/logo.svg",
         },
         variables:{
           colorText:"#fff",
