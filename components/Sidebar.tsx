@@ -18,7 +18,7 @@ const Sidebar = () => {
                 return(
                     <Link
                         href={link.route}
-                        key={link.route}
+                        key={link.route} 
                         className={cn("flex gap-4 items-center p-4 rounded-lg justify-start", {"bg-blue-500": isActive})}
                     >
                         <Image
@@ -30,7 +30,6 @@ const Sidebar = () => {
                         {link.label}
                     </Link>
                 )
-
             })}
         </div>
     </section>
