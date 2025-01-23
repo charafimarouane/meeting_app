@@ -12,9 +12,9 @@ import {
   } from "@/components/ui/sheet"
 import Image from 'next/image'
 import Link from 'next/link'
-import sidebarLinks from '@/constants'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
+import { sidebarLinks } from '@/constants'
   
 const MobileNav = () => {
     const pathname = usePathname()
